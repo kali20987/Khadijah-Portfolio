@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* this below is the bar on top */
 .header {
     padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -32,7 +32,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 20px;
 }
-
+/* this below are basic styling elements for the header */
 .header div ul {
     list-style-type: none;
 }
@@ -51,7 +51,7 @@ p {
     font-size: 16px;
 }
 
-
+/* this below is espeon image */
 .espie {
     margin-top: 25px ;
     margin-left: 25px;
@@ -66,15 +66,13 @@ p {
     background-position: center; 
     
 }
-
+/* this below is the about me section */
 .about {
     margin-top: 25px ;
     margin-left: 25px;
     margin-bottom: 25px;
     margin-right: 25px;
-
     color:white;
-    height: 600px;
     width:40%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
@@ -90,13 +88,6 @@ p {
   }
 
 
-  
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -108,22 +99,17 @@ p {
 }
 
 .content {
-/*    width: 95%; */
+
     display: inline-block;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-
-
-
-
+/* this below is the Horiseon background box */
 .Horiseon-box {
     margin-bottom: 20px;
     margin-right: 25px;
-
     padding: 50px;
-    /*width: 90%;*/
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: purple;
     color: #ffffff;
@@ -131,22 +117,17 @@ p {
     background-repeat: no-repeat;
     background-position: center; 
     
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;*/
 }
-
+/* this below is the Horiseon image */
 .Horiseon-img img {
-    /*max-width: 500px;*/
     width: 60%;
-    /*height: 60%;*/
     height:auto;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 
 }
-
+/* this below is the Horiseon header */
 .Horiseon-header h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -156,20 +137,17 @@ p {
 
 }
 
-/*
-.Pikachu-img img {
-    max-width: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-}*/
-
-.Pikachu-box {
+/* this below is the pikachu image */
+#Pikachu-img {
+    width: 30%;
+    object-fit:contain;
+}
+/* this below is the pikachu background box */
+#Pikachu-box {
     margin-bottom: 20px;
     margin-right: 25px;
-
-    padding: 50px;
-    height: auto;
+    width: auto;
+    padding: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: plum;
     color: #ffffff;
@@ -177,16 +155,15 @@ p {
     background-repeat: no-repeat;
     background-position: center; 
 }
-
+/* this below is the pikachu header */
 .Pikachu-header h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* this below is the warriors background box */
 .Warriors-box {
     margin-bottom: 20px;
     margin-right: 25px;
-
     padding: 50px;
     height: auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -197,13 +174,7 @@ p {
     background-position: center; 
 }
 
-/*.Warriors-img img {
-    max-width: 30%;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center; 
-}*/
-
+/* this below is the warriors header */
 .Warriors-header h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -226,6 +197,16 @@ p {
     flex-wrap: wrap;
   }
 
+  .flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color: plum;
+
+  }
+  
   .pikachu-container > div {
     background-color: #f1f1f1;
     width: 100px;
