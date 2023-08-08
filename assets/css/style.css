@@ -105,8 +105,8 @@ p {
     margin-right: 20px;
 }
 
-/* this below is the Horiseon background box */
-.Horiseon-box {
+/* this below is the Womens background box */
+.Womens-box {
     margin-bottom: 20px;
     margin-right: 25px;
     padding: 50px;
@@ -118,8 +118,8 @@ p {
     background-position: center; 
     
 }
-/* this below is the Horiseon image */
-.Horiseon-img img {
+/* this below is the Womens image */
+.Womens-img img {
     width: 60%;
     height:auto;
     background-size: cover;
@@ -127,8 +127,8 @@ p {
     background-position: center; 
 
 }
-/* this below is the Horiseon header */
-.Horiseon-header h2 {
+/* this below is the Womens header */
+.Womens-header h2 {
     margin-bottom: 20px;
     font-size: 36px;
     background-size: contain;
@@ -137,13 +137,13 @@ p {
 
 }
 
-/* this below is the pikachu image */
-#Pikachu-img {
-    width: 30%;
+/* this below is the Logo image */
+#Logo-img {
+    width: 80%;
     object-fit:contain;
 }
-/* this below is the pikachu background box */
-#Pikachu-box {
+/* this below is the Logo background box */
+#Logo-box {
     margin-bottom: 20px;
     margin-right: 25px;
     width: auto;
@@ -155,8 +155,8 @@ p {
     background-repeat: no-repeat;
     background-position: center; 
 }
-/* this below is the pikachu header */
-.Pikachu-header h2 {
+/* this below is the Logo header */
+.Logo-header h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -207,7 +207,7 @@ p {
 
   }
   
-  .pikachu-container > div {
+  .Logo-container > div {
     background-color: #f1f1f1;
     width: 100px;
     margin: 10px;
